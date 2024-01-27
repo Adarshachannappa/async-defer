@@ -25,3 +25,11 @@
 - We can keep scripts in Head and Body tags before closing them.
 - As a web developers, we have to decide where to keep the JS Scripts during the execution.
 - If we keep all the script files in head tag itself, it might take more time to show static web page. Only important script can be kept in head which is related to authentication or which are not used in the home page with DEFER attribute.
+
+### Custom flat function
+
+- flat is one of the array method and it is used to mereg the nested arrays into single array
+- by default depth will be 1 -
+  - example: array.flat()
+  - array.flat(2) -> two level of nested array will be merged into single array.
+- we have used recursive method and written custom flat method
